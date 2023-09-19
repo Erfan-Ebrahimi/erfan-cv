@@ -1,0 +1,105 @@
+
+
+@font-face {
+  font-family: dana;
+  src: url(../../fonts/Dana/woff2/DanaFaNum-Medium.woff2);
+}
+@font-face {
+  font-family: moraba;
+  src: url(../../fonts/Morabba/woff2/Morabba-Bold.woff2);
+}
+.home-container{
+    background:url("../../assets/img/banner-bg.png");
+    object-fit: cover;
+}
+.head{
+  font-family:"moraba" !important;
+}
+.content_wrapper{
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);  
+}
+.review_container{
+    &::after{
+      content: "";
+      width: 2px;
+      height: 4.5rem;
+      background: #e1d7f7;
+      background: linear-gradient(-90deg, #e5dcf8 0%, rgba(216, 210, 230, 0) 100%);
+      background: -webkit-linear-gradient(-90deg,#f6f1ff 0%,rgba(215, 203, 240, 0) 100%);
+      position: absolute;
+      top: 150px;
+      right: 27px;
+      border-radius: 20px;
+    }
+}  
+.link-socials{
+  transition: all 0.2s ease;
+  cursor:url("../../assets/n14.cur"),default;
+  &:hover{
+    color:#4db5ff;
+  } 
+}
+.me{
+  background: linear-gradient(rgba(207, 56, 56, 0.459) , rgba(54, 56, 187, 0.466), transparent);
+  width: 25rem;
+  height: 22rem;
+  margin-top: 3rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding-top: 60px;
+  transition: all 0.4s ease;
+  &:hover{
+    filter: saturate(2);
+  }
+}
+.second{ 
+  font-family:"moraba";
+    &::before{
+      content: "";
+      position:absolute;
+      width: 240px;
+      height: 130px;
+      top: 0px;
+      right: -10px;
+      z-index: -1;
+      background-image: url("../../assets/brush.png") !important;
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+}
+.btn{
+  color: rgb(130, 255, 234);
+  cursor:url("../../assets/n14.cur"),default;
+  border: 1px solid rgb(195, 197, 212);
+  transition: all 1s ease;
+  font-family: "dana";
+  &:hover{
+    color: rgb(0, 0, 0);
+    background: #fff;
+    border-color: transparent;
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(222,97,97,1) 57%, rgba(255,244,0,1) 100%);
+      
+  }
+}
+.btn-primary{
+  background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(222,97,97,1) 57%, rgba(255,244,0,1) 100%) !important;
+  color: black;
+  &:hover{
+    color: rgb(130, 255, 234) !important;
+    border-color: wheat !important;
+    background: none !important;      
+  }
+} 
+
+
+@media screen and (max-width:600px) {
+  .second{
+    &::before{
+      width: 150px;
+      height: 70px;
+      top: 0px;
+      right: -20px;
+    }
+  } 
+ }
