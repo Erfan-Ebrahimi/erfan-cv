@@ -1,6 +1,5 @@
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
-// import Projects from "./components/projects/Projects";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Footer from "./components/footer/Footer";
@@ -10,17 +9,14 @@ const App = () => {
   return (
     <div>
       <Navbar />
-        <Home />
-      <div className="container mx-auto">
+      <Home />
+      <div className="container mx-auto flex flex-col justify-center ">
         <About />
         <Skills />
-        {/* <Projects /> */}
         <div className="relative z-0">
-          <StarsCanvas />
           <Works />
-
+          {/* <StarsCanvas /> */}
         </div>
-
       </div>
       <Footer />
     </div>

@@ -20,6 +20,10 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import mui from "./tech/mui.svg";
+import sass from "./tech/sass.svg";
+import restapi from "./tech/restapi.png";
+import bootstrap from "./tech/bootstrap.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -65,5 +69,9 @@ export {
   tripguide,
   hygeia,
   cars07,
-  call
+  call,
+  bootstrap,
+  sass,
+  mui,
+  restapi
 };

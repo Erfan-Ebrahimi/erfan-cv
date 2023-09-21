@@ -1,104 +1,36 @@
 @font-face {
-    font-family: f4;
-    src: url(../../fonts/g2.ttf);
+    font-family: dana;
+    src: url(../../fonts/Dana/woff2/DanaFaNum-Medium.woff2);
   }
-.about{
-    
-    color: rgb(255, 240, 247);
-    display: flex;
-    width: 80%;
-    align-items: center;
-    margin: 0 auto;
-    height: 100vh;
-    
-    .left{
-        width: 40%;
-        img{
-            transition:.5s ease;
-            width: 400px;
-            height: 400px;
-            background: none;
-            &:hover{
-                transform: rotate(10deg);
-            }
-        }
+  @font-face {
+    font-family: moraba;
+    src: url(../../fonts/Morabba/woff2/Morabba-Bold.woff2);
+  }
+  .me{
+    background: linear-gradient(rgba(207, 56, 56, 0.459) , rgba(54, 56, 187, 0.466), transparent);
+    width: 25rem;
+    height: 22rem;
+    margin-top: 3rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding-top: 60px;
+    transition: all 0.4s ease;
+    &:hover{
+      filter: saturate(2);
     }
-    .right{
-        width: 60%;
-        .cont{
-            padding: 20px;
-            border-image-source:  linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(222,97,97,1) 57%, rgba(255,244,0,1) 100%);
-            border-bottom:solid;
-            border-image-slice: 1;
-            border-width: 1px;
-            border-right: 2px solid;
-            border-bottom: 2px solid;
-            border-top: none;
-            border-left: none;
-            transition:0.5s ease-in;
-            &:hover{
-                // transform: rotate(10deg);
-                transform: scale(102%);
-            }
-            
-            h3{
-                font-size: 25px;
-                font-family: f4 !important;
-                font-weight: 600;
-                letter-spacing: 1px;
-                text-align: center;
-                margin-bottom: 10px;
-                color: rgb(255, 74, 117);
-            }
-            p{
-                font-family: f4 !important;
-                font-weight: 600;
-                letter-spacing: 1px;
-                line-height: 20px;
-            }
-        }
-
+  }
+  .head-after2{
+    &::after{
+      content: "";
+      width: 4px;
+      height: 10.5rem;
+      background: #fff;
+      border-color: transparent;
+      background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(222,97,97,1) 57%, rgba(255,244,0,1) 100%);
+      position: absolute;
+      top: -48px;
+      right: 300px;
+      transform: rotate(90deg);
+      border-radius: 20px;
     }
 }
-
-
-
-@media screen and (max-width:600px) {
-    .about{
-        flex-direction: column-reverse;
-        justify-content: center;
-        text-align: center;
-        margin-top: 100px;
-
-        .cont{
-            border-left: 2px solid;
-            border-top: 2px solid;
-        }
-
-        .left{
-            width: 100%;
-            img{
-                width: 300px;
-            }
-
-        }
-        .right{
-            width: 100%;
-            h3{
-                font-size: 25px;
-                font-family: f4 !important;
-                font-weight: 600;
-                letter-spacing: 1px;
-                text-align: center;
-                margin-bottom: 10px;
-                color: rgb(255, 74, 117);
-            }
-            p{
-                font-family: f4 !important;
-                font-size: 15px;
-                text-align: justify;
-                font-weight: 100 !important;
-            }
-        }
-    }
-  }

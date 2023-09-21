@@ -1,22 +1,7 @@
 
-
-@font-face {
-  font-family: dana;
-  src: url(../../fonts/Dana/woff2/DanaFaNum-Medium.woff2);
-}
-@font-face {
-  font-family: moraba;
-  src: url(../../fonts/Morabba/woff2/Morabba-Bold.woff2);
-}
 .home-container{
     background:url("../../assets/img/banner-bg.png");
     object-fit: cover;
-}
-.head{
-  font-family:"moraba" !important;
-}
-.content_wrapper{
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);  
 }
 .review_container{
     &::after{
@@ -28,39 +13,26 @@
       background: -webkit-linear-gradient(-90deg,#f6f1ff 0%,rgba(215, 203, 240, 0) 100%);
       position: absolute;
       top: 150px;
-      right: 27px;
+      right: 8px;
       border-radius: 20px;
     }
 }  
 .link-socials{
   transition: all 0.2s ease;
   cursor:url("../../assets/n14.cur"),default;
+  z-index: 10;
   &:hover{
     color:#4db5ff;
   } 
 }
-.me{
-  background: linear-gradient(rgba(207, 56, 56, 0.459) , rgba(54, 56, 187, 0.466), transparent);
-  width: 25rem;
-  height: 22rem;
-  margin-top: 3rem;
-  border-radius: 12rem 12rem 0 0;
-  overflow: hidden;
-  padding-top: 60px;
-  transition: all 0.4s ease;
-  &:hover{
-    filter: saturate(2);
-  }
-}
-.second{ 
-  font-family:"moraba";
+.brush{ 
     &::before{
       content: "";
       position:absolute;
-      width: 240px;
+      width: 210px;
       height: 130px;
-      top: 0px;
-      right: -10px;
+      top: 15px;
+      right: 0px;
       z-index: -1;
       background-image: url("../../assets/brush.png") !important;
       background-position: right;
@@ -73,7 +45,6 @@
   cursor:url("../../assets/n14.cur"),default;
   border: 1px solid rgb(195, 197, 212);
   transition: all 1s ease;
-  font-family: "dana";
   &:hover{
     color: rgb(0, 0, 0);
     background: #fff;
@@ -94,7 +65,7 @@
 
 
 @media screen and (max-width:600px) {
-  .second{
+  .brush{
     &::before{
       width: 150px;
       height: 70px;

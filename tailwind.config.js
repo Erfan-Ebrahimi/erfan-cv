@@ -13,6 +13,14 @@ module.exports = {
         "black-200": "#090325",
         "white-100": "#f3f3f3",
       },
+      fontFamily: {
+        "Dana" : "Dana",
+        "DanaM" : "Dana Medium",
+        "DanaB" : "Dana DemiBold",
+        "Morabba" : "Morabba Light",
+        "MorabbaM" : "Morabba Medium",
+        "MorabbaB" : "Morabba Bold",
+      },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
       },

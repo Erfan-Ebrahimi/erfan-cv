@@ -19,26 +19,17 @@ import {
   starbucks,
   tesla,
   shopify,
-  jobit,
   threejs,  
-  call
+  call,
+  bootstrap,
+  mui,
+  restapi,
+  sass
   
 } from "../assets";
 
-export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
-];
+
+
 
 const services = [
   {
@@ -62,55 +53,68 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
+    percent:10,
     icon: html,
   },
   {
     name: "CSS 3",
+    percent:10,
     icon: css,
   },
   {
     name: "JavaScript",
+    percent:10,
     icon: javascript,
   },
   {
     name: "TypeScript",
+    percent:10,
     icon: typescript,
   },
   {
     name: "React JS",
+    percent:10,
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redux",
+    percent:10,
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    name: "Tailwind",
+    percent:10,
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Sass",
+    percent:10,
+    icon: sass,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Bootstrap",
+    percent:10,
+    icon: bootstrap,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MUI",
+    percent:10,
+    icon: mui,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Rest api",
+    percent:10,
+    icon: restapi,
   },
   {
     name: "figma",
+    percent:10,
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "git",
+    percent:10,
+    icon: git,
   },
 ];
 
@@ -185,6 +189,48 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "HiTech WaterProofing",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: call,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "HiTech WaterProofing",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: call,
+    source_code_link: "https://github.com/",
+  },
   {
     name: "HiTech WaterProofing",
     description:
