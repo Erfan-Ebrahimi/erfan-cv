@@ -39,13 +39,13 @@ const Navbar = () => {
 
   return (
     <>
-      <motion.div initial='initial' animate='animate'>
+      <motion.div initial='initial' animate='animate' className="hidden sm:flex">
         <motion.div variants={stagger}>
-          <nav className="fixed top-[43%] left-0 flex items-center bg-none z-50">
+          <nav className="fixed top-[43%] -left-[5.5rem] flex items-center bg-none z-50">
             <ul className="w-[110px] relative flex flex-col gap-y-10">
               <motion.li id="#home" style={{ "--clr": "#9ed8f0" }} variants={star}>
                 <Link
-                  to="home" spy={true} smooth={true} offset={-50} duration={500}
+                  to="home" spy={true} smooth={true} offset={0} duration={250}
                   className={click === "" ? "active" : ""}
                   onClick={closeMenu}
                   href="#"
@@ -54,7 +54,7 @@ const Navbar = () => {
               </motion.li>
               <motion.li id="#about" style={{ "--clr": "#ff6493" }} variants={star}>
                 <Link
-                  to="about" spy={true} smooth={true} offset={-10} duration={500}
+                  to="about" spy={true} smooth={true} offset={0} duration={250}
                   variants={star}
                   className={click === "" ? "active" : ""}
                   onClick={closeMenu}
@@ -65,7 +65,7 @@ const Navbar = () => {
               </motion.li>
               <motion.li id="#skills" style={{ "--clr": "#ffdd1c" }} variants={star}>
                 <Link
-                  to="skills" spy={true} smooth={true} offset={-10} duration={500}
+                  to="skills" spy={true} smooth={true} offset={0} duration={250}
                   variants={star}
 
                   className={click === "" ? "active" : ""}
@@ -76,7 +76,7 @@ const Navbar = () => {
               </motion.li>
               <motion.li id="#projects" style={{ "--clr": "#dc00d4" }} variants={star}>
                 <Link
-                  to="projects" spy={true} smooth={true} offset={-10} duration={500}
+                  to="projects" spy={true} smooth={true} offset={0} duration={250}
                   variants={star}
                   className={click === "" ? "active" : ""}
                   onClick={closeMenu}

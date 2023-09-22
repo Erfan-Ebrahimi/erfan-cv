@@ -1,54 +1,27 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
   redux,
-  tailwind,
-  nodejs,
-  mongodb,
+  tailwind,  
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  threejs,  
-  call,
   bootstrap,
   mui,
   restapi,
-  sass
+  sass,
+  youtube,
+  travel,
+  prixma,
+  shop,
+  ikorc,
+  dashboard,
+  coffee,
+  sabz,
   
 } from "../assets";
-
-
-
-
-const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "WordPress Developer",
-    icon: mobile,
-  },
-  {
-    title: "DevOps",
-    icon: backend,
-  },
-  {
-    title: "HardWare Reaper",
-    icon: creator,
-  },
-];
 
 const technologies = [
   {
@@ -118,81 +91,11 @@ const technologies = [
   },
 ];
 
-const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies."
-    ],
-  },
-  {
-    title: "WordPress Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products."
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Implementing responsive design and ensuring cross-browser compatibility."
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Participating in code reviews and providing constructive feedback to other developers."
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara",
-    designation: "Student",
-    company: "Project",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Taj",
-    designation: "Software Engineer",
-    company: "Infosys",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Ravi",
-    designation: "Business",
-    company: "HiTech",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
-    name: "HiTech WaterProofing",
+    name: "پالایشگاه نفت شازند",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "یک پروژه که با وانیلا جاوااسکریپت زده شده و به سفارش روابط عمومی پالایشگاه شازند جهت استفاده در فضای مجازی به عنوان معرفی نامه شرکت می باشد و تا کنون صفحات اولیه آن توسعه داده شده است.",
     tags: [
       {
         name: "HTML",
@@ -203,55 +106,175 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "Vanila-Js",
         color: "pink-text-gradient",
       },
+      {
+        name: "bootstrap",
+        color: "orange-text-gradient",
+      },
     ],
-    image: call,
-    source_code_link: "https://github.com/",
+    image: ikorc,
+    source_link: "https://github.com/Erfan-Ebrahimi/IKORC1.git",
+    demo_link: "https://ikorc.vercel.app/",
   },
   {
-    name: "HiTech WaterProofing",
+    name: "سایت فروش قهوه",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "یک سایت فروشگاه قهوه که با ری اکت و تیلویند توسعه داده شده است. هدف از پروژه تمرین تیلویند بوده است.",
     tags: [
       {
-        name: "HTML",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "pink-text-gradient",
-      },
+        name: "Tailwind CSS",
+        color: "orange-text-gradient",
+      }
     ],
-    image: call,
-    source_code_link: "https://github.com/",
+    image: coffee,
+    source_link: "https://github.com/Erfan-Ebrahimi/IKORC1.git",
+    demo_link: "https://coffee-er.netlify.app/",
   },
   {
-    name: "HiTech WaterProofing",
+    name: "پنل ادمین",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "یک مینی پروژه تک صفحه ایی ری اکت می باشد که اطلاعات محصولات و کاربران را نمایش می دهد.هنوز به اتمام نرسیده و در حال توسعه می باشد.ریسپانسیو نشده است.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Formik",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mui/data-grid",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "recharts",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: dashboard,
+    source_link: "https://github.com/Erfan-Ebrahimi/dashboard-er",
+    demo_link: "https://dashboard-er.vercel.app/",
+  },
+  {
+    name: "یوتیوب",
+    description:
+      "یک پروژه ی React که شبیه یوتیوب می باشد. از یک api محدود برای دریافت اطلاعات استفاده شده است.",
+    tags: [
+      {
+        name: "Axios",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MUI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React-player",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "orange-text-gradient",
+      }
+    ],
+    image: youtube,
+    source_link: "https://github.com/Erfan-Ebrahimi/youtube-er",
+    demo_link: "https://youtube-er.onrender.com",
+  },
+  {
+    name: "سایت گردشگری",
+    description:
+      "این پروژه یک سایت گردشگری می باشد که تماما با sass استایل دهی داده شده است.هدف پروژه یادگیری و تمرین sass بوده است.",
     tags: [
       {
         name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Sass",
         color: "green-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "Vanila-Js",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: travel,
+    source_link: "https://github.com/Erfan-Ebrahimi/TRAVEL-ER.git",
+    demo_link: "https://travel-er.vercel.app/",
+  },
+  {
+    name: "Prixma",
+    description:
+      "یک پروژه ی تمرینی که تماما با Bootstrap استایل دهی شده است.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
+      {
+        name: "Vanila-Js",
+        color: "green-text-gradient",
+      }
     ],
-    image: call,
-    source_code_link: "https://github.com/",
+    image: prixma,
+    source_link: "https://github.com/Erfan-Ebrahimi/PRIXMA.git",
+    demo_link: "https://prixma.vercel.app/",
+  },
+  {
+    name: "سایت فروشگاهی",
+    description:
+      "یک سایت SPA می باشد که با ری اکت توسعه داده شده است.برای مدیریت state از context و برای استایل دهی از module.css استفاده شده است.",
+    tags: [
+      {
+        name: "Router-dom-six",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Module-Css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Axios",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: shop,
+    source_link: "https://github.com/Erfan-Ebrahimi/PRIXMA.git",
+    demo_link: "https://prixma.vercel.app/",
+  },
+  {
+    name: "سایت آموزش برنامه نویسی",
+    description:
+      "بک اند این پروژه از قبل توسعه داده شده است و فرانت طبق بک اند توسعه داده شده است. در دل  این پروژه دو پنل کاربری و ادمین توسعه داده شده است و نسبت به بقیه پروژه هایی که توسعه دادم پیچیده تر می باشد.",
+    tags: [
+      {
+        name: "Router-dom-six",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React-player",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Ckeditor",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: sabz,
+    source_link: "https://github.com/Erfan-Ebrahimi/Sabz-full",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { technologies, projects };

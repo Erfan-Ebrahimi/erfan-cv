@@ -4,22 +4,21 @@ import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Footer from "./components/footer/Footer";
 import Works from "./components/projects/Works";
-import StarsCanvas from "./components/canvas/Stars";
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar />
-      <Home />
-      <div className="container mx-auto flex flex-col justify-center ">
-        <About />
-        <Skills />
-        <div className="relative z-0">
+      <div className=" mx-auto flex flex-col">
+        <Home />
+        <div className="container mx-auto flex flex-col ">
+          <About />
+          <Skills />
           <Works />
-          {/* <StarsCanvas /> */}
         </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+
+    </>
   );
 }
 

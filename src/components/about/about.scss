@@ -1,36 +1,9 @@
-@font-face {
-    font-family: dana;
-    src: url(../../fonts/Dana/woff2/DanaFaNum-Medium.woff2);
-  }
-  @font-face {
-    font-family: moraba;
-    src: url(../../fonts/Morabba/woff2/Morabba-Bold.woff2);
-  }
+
   .me{
     background: linear-gradient(rgba(207, 56, 56, 0.459) , rgba(54, 56, 187, 0.466), transparent);
-    width: 25rem;
-    height: 22rem;
-    margin-top: 3rem;
     border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding-top: 60px;
     transition: all 0.4s ease;
     &:hover{
       filter: saturate(2);
     }
   }
-  .head-after2{
-    &::after{
-      content: "";
-      width: 4px;
-      height: 10.5rem;
-      background: #fff;
-      border-color: transparent;
-      background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(222,97,97,1) 57%, rgba(255,244,0,1) 100%);
-      position: absolute;
-      top: -48px;
-      right: 300px;
-      transform: rotate(90deg);
-      border-radius: 20px;
-    }
-}

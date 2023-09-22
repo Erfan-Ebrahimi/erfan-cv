@@ -23,7 +23,8 @@
     "react-tilt": "^1.0.2",
     "sass": "^1.67.0",
     "sweetalert2": "^11.7.28",
-    "three": "^0.149.0"
+    "three": "^0.149.0",
+    "typewriter-effect": "2.19"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

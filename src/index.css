@@ -46,7 +46,6 @@
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
   scroll-behavior: smooth;
-  color-scheme: dark;
 }
 
 html::-webkit-scrollbar{
@@ -63,15 +62,7 @@ body{
   background: url("./assets/img/footer-bg.png");  
   background-size: cover !important;
   background-attachment: fixed;
-  overflow-x: hidden; 
 }
-
-.hash-span {
-  margin-top: -100px;
-  padding-bottom: 100px;
-  display: block;
-}
-
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -165,4 +156,13 @@ body{
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.head-after{
+  border-top:none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 3px solid !important;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: radial-gradient(circle, rgba(34,193,195,.7) 23%, rgba(222,97,97,0.2) 100%);
 }

@@ -20,21 +20,21 @@
     }
 
 
-    .head-after3{
-      &::after{
-        content: "";
-        width: 4px;
-        height: 10.5rem;
-        background: #fff;
-        border-color: transparent;
-        background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(222,97,97,1) 57%, rgba(255,244,0,1) 100%);
-        position: absolute;
-        top: -48px;
-        right: 400px;
-        transform: rotate(90deg);
-        border-radius: 20px;
-      }
-  }
+  //   .head-after3{
+  //     &::after{
+  //       content: "";
+  //       width: 4px;
+  //       height: 10.5rem;
+  //       background: #fff;
+  //       border-color: transparent;
+  //       background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(222,97,97,1) 57%, rgba(255,244,0,1) 100%);
+  //       position: absolute;
+  //       top: -48px;
+  //       right: 400px;
+  //       transform: rotate(90deg);
+  //       border-radius: 20px;
+  //     }
+  // }
 
 
 

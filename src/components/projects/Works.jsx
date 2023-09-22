@@ -1,54 +1,50 @@
 /* eslint-disable react/prop-types */
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-import { github } from "../../assets";
-import { SectionWrapper } from "../../hoc";
 import { projects } from "../../constants/index.js";
 import { fadeIn } from "../../utils/motion";
+import { BsGithub } from "react-icons/bs";
 import { MdVisibility } from "react-icons/md";
 
 import "./projects.scss";
 
 
-const ProjectCard = ({
-  index,
-  name,
-  description,
-  tags,
-  image,
-  source_code_link,
-}) => {
+const ProjectCard = ({ index, name, description, tags, image, source_link, demo_link }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt options={{ max: 45, scale: 1, speed: 450, }} className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
+      <Tilt options={{ max: 45, scale: 1, speed: 450, }} className='bg-slate-950 shadow-sm text-center shadow-slate-100/40 p-5 rounded-2xl sm:w-[360px] w-full'>
 
-        <div className='absolute bottom-0 right-3 flex justify-end m-3 card-img_hover'>
-          <div onClick={() => window.open(source_code_link, "_blank")} className=' w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
-            <img src={github} alt='source code' className='w-1/2 h-1/2 object-contain' />
-          </div>
-        </div>
-
-        <div className='absolute bottom-0 right-10 flex justify-end m-3 card-img_hover'>
-          <div onClick={() => window.open(source_code_link, "_blank")} className=' w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
-            <MdVisibility />
-          </div>
-        </div>
-
-        <div className='relative w-full h-[230px]'>
-          <img src={image} alt='project_image' className='w-full h-full object-cover rounded-2xl' />
+        <div className='w-full'>
+          <img src={image} alt='project_image' className='w-[300px] h-[200px] mx-auto rounded-2xl' />
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <h3 className='text-white font-bold font-MorabbaB tracking-wider text-[24px] h-9'>{name}</h3>
+          <p className='mt-2  w-[90%] text-secondary text-justify text-[14px] h-24 font-DanaB'>{description}</p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p key={`${name}-${tag.name}`} className={`text-[14px] ${tag.color}`}>
-              #{tag.name}
+              {tag.name}#
             </p>
           ))}
+        </div>
+        <div className="flex justify-center mt-3">
+          <div className='card-img_hover'>
+            <div onClick={() => window.open(source_link, "_blank")} className=' w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
+              <BsGithub className="text-4xl text-orange-400" />
+            </div>
+          </div>
+          {
+            demo_link && 
+          
+          <div className='card-img_hover'>
+            <div onClick={() => window.open(demo_link, "_blank")} className=' w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
+              <MdVisibility className="text-3xl text-orange-400" />
+            </div>
+          </div>
+          }
         </div>
 
       </Tilt>
@@ -66,24 +62,24 @@ const item = {
 
 const Works = () => {
   return (
-    <section id='projects' className=" h-[100vh]">
+    <section id='projects' className="mt-20">
+      <motion.h1 className="container md:w-[50%] head-after font-MorabbaB text-center text-4xl md:text-5xl my-10 pb-5 text-white" variants={item}>
+        پروژه های من
+      </motion.h1>
+      <div>
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className='md:w-1/2 mx-auto  mb-9 text-center text-secondary font-DanaB '>
+          این پروژه ها همونایی ان که گفتم توسعه دادم و خیلی باحالن. به طور خلاصه هر پروژه رو با تگ هایی معرفی کردم.لینک دمو و گیت هاب هر پروژه رو هم گذاشتم.
+        </motion.p>
 
-      <motion.div  variants={item}>
-        <div className='w-full flex flex-col mb-10'>
-          <h1 className="relative head-after4 font-MorabbaB text-5xl mb-5 ">پروژه های من</h1>
-          <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-secondary font-DanaB text-base max-w-xl leading-[30px]'>
-            این پروژه ها همونایی ان که گفتم توسعه دادم و خیلی باحالن. به طور خلاصه هر پروژه رو با تگ هایی معرفی کردم.لینک دمو و گیت هاب هر پروژه رو هم گذاشتم.
-          </motion.p>
+        <div className='grid gap-y-5 grid-cols-1 md:grid-cols-2 xl:grid-cols-3'>
+          {projects.map((project, index) => (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))}
         </div>
-      </motion.div>
 
-      <div className='grid grid-cols-3'>
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
       </div>
     </section>
   );
 };
 
-export default SectionWrapper(Works, "");
+export default Works;
