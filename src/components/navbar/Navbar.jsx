@@ -41,7 +41,7 @@ const Navbar = () => {
     <>
       <motion.div initial='initial' animate='animate' className="hidden sm:flex">
         <motion.div variants={stagger}>
-          <nav className="fixed top-[43%] -left-[5.5rem] flex items-center bg-none z-50">
+          <nav className="fixed top-[40%] -left-[5.1rem] flex items-center bg-none z-50">
             <ul className="w-[110px] relative flex flex-col gap-y-10">
               <motion.li id="#home" style={{ "--clr": "#9ed8f0" }} variants={star}>
                 <Link

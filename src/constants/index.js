@@ -26,67 +26,67 @@ import {
 const technologies = [
   {
     name: "HTML 5",
-    percent:10,
+    percent:90,
     icon: html,
   },
   {
     name: "CSS 3",
-    percent:10,
+    percent:80,
     icon: css,
   },
   {
     name: "JavaScript",
-    percent:10,
+    percent:70,
     icon: javascript,
   },
   {
     name: "TypeScript",
-    percent:10,
+    percent:50,
     icon: typescript,
   },
   {
     name: "React JS",
-    percent:10,
+    percent:70,
     icon: reactjs,
   },
   {
     name: "Redux",
-    percent:10,
+    percent:70,
     icon: redux,
   },
   {
     name: "Tailwind",
-    percent:10,
+    percent:80,
     icon: tailwind,
   },
   {
     name: "Sass",
-    percent:10,
+    percent:80,
     icon: sass,
   },
   {
     name: "Bootstrap",
-    percent:10,
+    percent:80,
     icon: bootstrap,
   },
   {
     name: "MUI",
-    percent:10,
+    percent:70,
     icon: mui,
   },
   {
     name: "Rest api",
-    percent:10,
+    percent:70,
     icon: restapi,
   },
   {
     name: "figma",
-    percent:10,
+    percent:50,
     icon: figma,
   },
   {
     name: "git",
-    percent:10,
+    percent:50,
     icon: git,
   },
 ];
@@ -95,7 +95,7 @@ const projects = [
   {
     name: "پالایشگاه نفت شازند",
     description:
-      "یک پروژه که با وانیلا جاوااسکریپت زده شده و به سفارش روابط عمومی پالایشگاه شازند جهت استفاده در فضای مجازی به عنوان معرفی نامه شرکت می باشد و تا کنون صفحات اولیه آن توسعه داده شده است.",
+      "یک پروژه که با وانیلا جاوااسکریپت توسعه داده شده و به سفارش روابط عمومی پالایشگاه شازند جهت استفاده در فضای مجازی به عنوان معرفی نامه شرکت می باشد و تا کنون صفحات اولیه آن توسعه داده شده است.",
     tags: [
       {
         name: "HTML",
@@ -139,7 +139,7 @@ const projects = [
   {
     name: "پنل ادمین",
     description:
-      "یک مینی پروژه تک صفحه ایی ری اکت می باشد که اطلاعات محصولات و کاربران را نمایش می دهد.هنوز به اتمام نرسیده و در حال توسعه می باشد.ریسپانسیو نشده است.",
+      "یک مینی پروژه SPA ری اکت می باشد که اطلاعات محصولات و کاربران را نمایش می دهد.هنوز به اتمام نرسیده و در حال توسعه می باشد.ریسپانسیو نشده است.",
     tags: [
       {
         name: "React",

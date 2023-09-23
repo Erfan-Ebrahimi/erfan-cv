@@ -2,6 +2,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import headimg from "./img/header-img.svg"
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -34,6 +35,7 @@ export {
   mobile,
   web,
   github,
+  headimg,
   css,
   figma,
   git,

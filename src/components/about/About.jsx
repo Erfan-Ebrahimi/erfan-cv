@@ -46,8 +46,12 @@ const About = () => {
         درباره ی من
       </motion.h1>
       <motion.div className="w-full flex flex-col xl:flex-row items-center justify-between gap-y-6 text-white" variants={container} initial="hidden" exit="exit" whileInView="show" viewport={{ once: false }} >
-          <p className='md:w-[700px] px-1 text-justify text-secondary text-xl md:text-2xl font-Dana'>
-            از بچگی خیلی علاقه به کامپیوتر داشتم تا اینکه یه جرقه توی ذهنم بهونه شد تا برم دنبال علاقه ی کودکیم. تابستان 1400 برنامه نویسی رو شروع کردم.رفتم خدمت و بعد از پایان خدمت از تابستان 1401 در حال کسب تجربه و یادگیری هستم.چندتا پروژه باحال توسعه دادم و در کنارش چیزای جدید هم یاد گرفتم.امیدوارم بتونیم در کنار هم پیشرفت کنیم.<span>&#128151;</span>
+          <p className='md:w-[700px] px-1 text-justify text-secondary text-xl font-Dana'>
+          از کودکی به کامپیوتر و بازی های کامپیوتری علاقه داشتم. همیشه دوست داشتم بدونم که این بازی ها چطوری کار می کنند. در تابستان 1401 که خدمتم تموم شد، فرصت مناسبی بود تا به طور تمام وقت به یادگیری برنامه نویسی بپردازم.<br/>
+          در این مدت، چند پروژه کاربردی توسعه دادم.توسعه این پروژه ها، به من کمک کرد تا مهارت های برنامه نویسی خودم رو بهبود ببخشم و با مفاهیم جدید آشنا بشوم. <br/>
+          <span className="font-DanaB text-pink-400">من معتقدم که برنامه نویسی یک حرفه است که میتونه به من کمک کنه تا دنیا را به روشی بهتر تغییر بدم.</span><br/>
+          امیدوارم بتونم در یک موقعیت شغلی مناسب مشغول به کار بشم و با همکاری با شما، به پیشرفت خودم ادامه بدم.
+            <span>&#128151;</span>
           </p>
         <motion.div variants={item}>
           <motion.div className="me h-[400px] overflow-hidden">

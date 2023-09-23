@@ -13,28 +13,12 @@
 
         &:hover{
             background: transparent;
-            background: linear-gradient(135deg, rgba(200, 147, 218, 0.62) 0%, rgba(222, 97, 97, 0.06) 80%);
+            background: linear-gradient(135deg, rgba(213, 218, 147, 0.62) 0%, rgba(222, 97, 97, 0.06) 80%);
             padding-right: 1rem;
             color: rgb(255, 255, 255);  
         }
     }
 
-
-  //   .head-after3{
-  //     &::after{
-  //       content: "";
-  //       width: 4px;
-  //       height: 10.5rem;
-  //       background: #fff;
-  //       border-color: transparent;
-  //       background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(222,97,97,1) 57%, rgba(255,244,0,1) 100%);
-  //       position: absolute;
-  //       top: -48px;
-  //       right: 400px;
-  //       transform: rotate(90deg);
-  //       border-radius: 20px;
-  //     }
-  // }
 
 
 

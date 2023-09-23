@@ -12,7 +12,7 @@ import "./projects.scss";
 const ProjectCard = ({ index, name, description, tags, image, source_link, demo_link }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt options={{ max: 45, scale: 1, speed: 450, }} className='bg-slate-950 shadow-sm text-center shadow-slate-100/40 p-5 rounded-2xl sm:w-[360px] w-full'>
+      <Tilt options={{ max: 45, scale: 1, speed: 450, }} className='bg-slate-950 shadow-sm text-center shadow-purple-400/70 p-5 rounded-2xl sm:w-[360px] w-full'>
 
         <div className='w-full'>
           <img src={image} alt='project_image' className='w-[300px] h-[200px] mx-auto rounded-2xl' />
@@ -68,7 +68,8 @@ const Works = () => {
       </motion.h1>
       <div>
         <motion.p variants={fadeIn("", "", 0.1, 1)} className='md:w-1/2 mx-auto  mb-9 text-center text-secondary font-DanaB '>
-          این پروژه ها همونایی ان که گفتم توسعه دادم و خیلی باحالن. به طور خلاصه هر پروژه رو با تگ هایی معرفی کردم.لینک دمو و گیت هاب هر پروژه رو هم گذاشتم.
+          این پروژه ها همونایی ان که گفتم توسعه دادم و خیلی باحالن.هر پروژه رو به طور خلاصه معرفی کردم.لینک دمو و گیت هاب هر پروژه رو هم گذاشتم.<br/>
+          <span className="font-Dana text-xs text-purple-400">برای مشاهده حتما از Vpn استفاده کنید.</span>
         </motion.p>
 
         <div className='grid gap-y-5 grid-cols-1 md:grid-cols-2 xl:grid-cols-3'>
