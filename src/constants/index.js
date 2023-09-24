@@ -36,7 +36,7 @@ const technologies = [
   },
   {
     name: "JavaScript",
-    percent:70,
+    percent:60,
     icon: javascript,
   },
   {
@@ -51,7 +51,7 @@ const technologies = [
   },
   {
     name: "Redux",
-    percent:70,
+    percent:60,
     icon: redux,
   },
   {
@@ -66,7 +66,7 @@ const technologies = [
   },
   {
     name: "Bootstrap",
-    percent:80,
+    percent:70,
     icon: bootstrap,
   },
   {
@@ -137,6 +137,27 @@ const projects = [
     demo_link: "https://coffee-er.netlify.app/",
   },
   {
+    name: "سایت آموزش برنامه نویسی",
+    description:
+      "بک اند این پروژه از قبل توسعه داده شده است و فرانت طبق بک اند توسعه داده شده است. در دل  این پروژه دو پنل کاربری و ادمین توسعه داده شده است و نسبت به بقیه پروژه هایی که توسعه دادم پیچیده تر می باشد.",
+    tags: [
+      {
+        name: "Router-dom-six",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React-player",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Ckeditor",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: sabz,
+    source_link: "https://github.com/Erfan-Ebrahimi/Sabz-full",
+  },
+  {
     name: "پنل ادمین",
     description:
       "یک مینی پروژه SPA ری اکت می باشد که اطلاعات محصولات و کاربران را نمایش می دهد.هنوز به اتمام نرسیده و در حال توسعه می باشد.ریسپانسیو نشده است.",
@@ -159,8 +180,8 @@ const projects = [
       },
     ],
     image: dashboard,
-    source_link: "https://github.com/Erfan-Ebrahimi/dashboard-er",
-    demo_link: "https://dashboard-er.vercel.app/",
+    source_link: "https://github.com/Erfan-Ebrahimi/panel-er",
+    demo_link: "https://panel-er.onrender.com",
   },
   {
     name: "یوتیوب",
@@ -254,27 +275,7 @@ const projects = [
     source_link: "https://github.com/Erfan-Ebrahimi/PRIXMA.git",
     demo_link: "https://prixma.vercel.app/",
   },
-  {
-    name: "سایت آموزش برنامه نویسی",
-    description:
-      "بک اند این پروژه از قبل توسعه داده شده است و فرانت طبق بک اند توسعه داده شده است. در دل  این پروژه دو پنل کاربری و ادمین توسعه داده شده است و نسبت به بقیه پروژه هایی که توسعه دادم پیچیده تر می باشد.",
-    tags: [
-      {
-        name: "Router-dom-six",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "React-player",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Ckeditor",
-        color: "pink-text-gradient",
-      }
-    ],
-    image: sabz,
-    source_link: "https://github.com/Erfan-Ebrahimi/Sabz-full",
-  },
+  
 ];
 
 export { technologies, projects };
