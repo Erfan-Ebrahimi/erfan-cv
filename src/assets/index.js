@@ -16,6 +16,7 @@ import typescript from "./tech/typescript.png";
 import mui from "./tech/mui.svg";
 import sass from "./tech/sass.svg";
 import restapi from "./tech/restapi.png";
+import pwa from "./tech/pwa.png";
 import bootstrap from "./tech/bootstrap.png";
 
 import youtube from "./youtube.png";
@@ -49,6 +50,7 @@ export {
   sass,
   mui,
   restapi,
+  pwa,
   youtube,
   travel,
   prixma,

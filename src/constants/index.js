@@ -11,6 +11,7 @@ import {
   bootstrap,
   mui,
   restapi,
+  pwa,
   sass,
   youtube,
   travel,
@@ -61,7 +62,7 @@ const technologies = [
   },
   {
     name: "Sass",
-    percent:80,
+    percent:70,
     icon: sass,
   },
   {
@@ -71,13 +72,18 @@ const technologies = [
   },
   {
     name: "MUI",
-    percent:70,
+    percent:60,
     icon: mui,
   },
   {
     name: "Rest api",
     percent:70,
     icon: restapi,
+  },
+  {
+    name: "PWA",
+    percent:40,
+    icon: pwa,
   },
   {
     name: "figma",
