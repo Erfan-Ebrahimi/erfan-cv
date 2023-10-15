@@ -61,27 +61,15 @@ function Home() {
   const btnHandle = (e) => {
     e.preventDefault();
     Swal.fire({
-      title: '09918790969 <br/>ebrahimi.erfan89@gmail.com',
-      padding: '1em',
-      width:'100%',
-      background: '#804dee',
-      backdrop: `rgba(0,0,123,0.4)`,
-      customClass: {
-        title: 's1',
-      }
+      title: 'ebrahimi.erfan89@gmail.com',
+      text: "09918790969"
     })
   }
   const clickHandle = (e) => {
     e.preventDefault();
     Swal.fire({
-      title: '09918790969 <br/>ebrahimi.erfan89@gmail.com',
-      padding: '3em',
-      width:'100%',
-      background: '#804dee',
-      backdrop: `rgba(0,0,123,0.4)`,
-      customClass: {
-        title: 's1',
-      }
+      title: 'ebrahimi.erfan89@gmail.com',
+      text: "09918790969"
     })
   }
   return (

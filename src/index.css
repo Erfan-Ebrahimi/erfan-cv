@@ -166,3 +166,42 @@ body{
   border-width: 1px;
   border-image-source: radial-gradient(circle, rgba(34,193,195,.7) 23%, rgba(222,97,97,0.2) 100%);
 }
+.swal2-title{
+  color: rgb(93, 246, 137) !important;
+  font-size: 2rem;
+  font-family: monospace ;
+}
+.swal2-html-container{
+  color: rgb(255, 255, 15) !important;
+  font-size: 2rem !important;
+  font-weight: 800 !important;
+  font-family: monospace !important; 
+  
+}
+.swal2-confirm{
+  width: 100px !important;
+  color: rgb(220, 216, 243) !important;
+  border: 1px solid rgb(209, 97, 5) !important;
+  outline: none !important;
+  transition: all 1s ease !important;
+  font-size: 15px !important;
+  border-radius: 20px 0px !important;
+  font-weight: 800 !important;
+  background: linear-gradient(135deg, rgba(29, 39, 222, 0.6) 17%, rgba(255, 242, 0, 0.575) 100%) !important;   
+}
+.swal2-confirm:hover{
+  outline: none !important;
+  background: #804dee !important;   
+  border: 1px solid rgb(53, 209, 5) !important;
+
+}
+.swal2-container{
+  background: #0303dc94 !important;
+  backdrop-filter: blur(5px) !important;
+}
+.swal2-modal{
+  border-radius:10px 80px ;
+  width:65% !important;
+  background:#041f35f7 !important;
+  border: 1px solid rgb(255, 239, 9);
+}

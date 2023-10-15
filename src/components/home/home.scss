@@ -55,22 +55,3 @@
 .Typewriter__cursor{
   display: none;
 }
-.s1{
-  @apply font-MorabbaB text-xl md:text-4xl text-red-400 h-60 w-full
-}
-.swal2-confirm{
-  width: 150px !important;
-  color: rgb(255, 255, 255) !important;
-  border: 1px solid rgb(209, 97, 5) !important;
-  transition: all 1s ease !important;
-  font-size: 20px !important;
-  border-radius: 15px !important;
-  font-weight: 800 !important;
-  background: linear-gradient(135deg, rgba(222,97,97,.7) 37%, rgba(255,244,0,.7) 100%) !important;
-  &:hover{
-    color: rgb(0, 0, 0) !important;
-    background: #fff !important;
-    border-color: transparent;
-      
-}
-}
