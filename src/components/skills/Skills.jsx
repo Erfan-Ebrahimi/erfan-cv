@@ -41,7 +41,7 @@ const Skills = () => {
                   </div>
                   <div className="w-full ">
                     <h4 className="w-full text-green-100 f1 font-medium text-lg">{technology.name}</h4>
-                    <small className='font-mono text-purple-400 text-lg'>%{technology.percent}</small>
+                    <small className='font-Dana text-purple-400 text-lg'>{technology.percent}</small>
 
                   </div>
                 </motion.a>

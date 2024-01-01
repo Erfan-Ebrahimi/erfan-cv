@@ -7,6 +7,7 @@ import {
   redux,
   tailwind,  
   git,
+  next,
   figma,
   bootstrap,
   mui,
@@ -27,74 +28,79 @@ import {
 const technologies = [
   {
     name: "HTML 5",
-    percent:90,
+    percent:"18 ماه",
     icon: html,
   },
   {
     name: "CSS 3",
-    percent:80,
+    percent:"18 ماه",
     icon: css,
   },
   {
     name: "JavaScript",
-    percent:60,
+    percent:"16 ماه",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    percent:50,
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    percent:70,
-    icon: reactjs,
-  },
-  {
-    name: "Redux",
-    percent:60,
-    icon: redux,
-  },
-  {
-    name: "Tailwind",
-    percent:80,
-    icon: tailwind,
-  },
-  {
     name: "Sass",
-    percent:70,
+    percent:"14 ماه",
     icon: sass,
   },
   {
-    name: "Bootstrap",
-    percent:70,
-    icon: bootstrap,
-  },
-  {
-    name: "MUI",
-    percent:60,
-    icon: mui,
-  },
-  {
-    name: "Rest api",
-    percent:70,
-    icon: restapi,
-  },
-  {
-    name: "PWA",
-    percent:40,
-    icon: pwa,
-  },
-  {
-    name: "figma",
-    percent:50,
-    icon: figma,
+    name: "React JS",
+    percent:"12 ماه",
+    icon: reactjs,
   },
   {
     name: "git",
-    percent:50,
+    percent:"12 ماه",
     icon: git,
   },
+  {
+    name: "Bootstrap",
+    percent:"12 ماه",
+    icon: bootstrap,
+  },
+  {
+    name: "Rest api",
+    percent:"8 ماه",
+    icon: restapi,
+  },
+  {
+    name: "Tailwind",
+    percent:"6 ماه",
+    icon: tailwind,
+  },
+  {
+    name: "TypeScript",
+    percent:"5 ماه",
+    icon: typescript,
+  },
+  {
+    name: "Redux",
+    percent:"5 ماه",
+    icon: redux,
+  },
+  {
+    name: "MUI",
+    percent:"4 ماه",
+    icon: mui,
+  },
+  {
+    name: "figma",
+    percent:"4 ماه",
+    icon: figma,
+  },
+  {
+    name: "PWA",
+    percent:"2 ماه",
+    icon: pwa,
+  },
+  {
+    name: "Next",
+    percent:"2 ماه",
+    icon: next,
+  }
 ];
 
 const projects = [

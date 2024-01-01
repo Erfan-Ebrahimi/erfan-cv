@@ -2,9 +2,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./about.scss";
 import { motion } from "framer-motion";
-import me from "../../assets/erer22.png";
-import { web } from "../../assets"
-import { creator } from "../../assets"
+import me from "../../assets/er1.png";
+
 
 
 const container = {
@@ -54,8 +53,8 @@ const About = () => {
             <span>&#128151;</span>
           </p>
         <motion.div variants={item}>
-          <motion.div className="me h-[400px] overflow-hidden">
-            <motion.img className='w-full' src={me} alt="bg" initial={{ x: -20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: .5, delay: 0.8 }} />
+          <motion.div className="me sm:h-[400px] md:h-[300px]  overflow-hidden">
+            <motion.img className='w-[200px] sm:w-[470px]' src={me} alt="bg" initial={{ x: -20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: .5, delay: 0.8 }} />
           </motion.div>
         </motion.div>
       </motion.div>

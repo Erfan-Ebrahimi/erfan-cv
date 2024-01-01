@@ -7,6 +7,7 @@ import headimg from "./img/header-img.svg"
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
+import next from "./tech/next.svg";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
@@ -40,6 +41,7 @@ export {
   css,
   figma,
   git,
+  next,
   html,
   javascript,
   reactjs,
